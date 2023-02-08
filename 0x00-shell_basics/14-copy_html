@@ -1,0 +1,17 @@
+#!/bin/bash
+
+files=$(ls *.html)
+
+
+for file in $files
+do
+
+	if [ -f ../$file ]; then
+		if [ $file -nt ../$file ]; then
+
+			cp $file ../$file
+		fi
+	else
+		cp $file ../$file
+	fi
+done
