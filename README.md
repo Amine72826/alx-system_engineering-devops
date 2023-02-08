@@ -1,2 +1,5 @@
+# alx-system_engineering-devops
+
 Shell is cool!
-Do hard thing!
+Do hard things!
+
