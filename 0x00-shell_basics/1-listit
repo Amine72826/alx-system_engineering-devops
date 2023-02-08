@@ -1,6 +1,3 @@
 #!/bin/bash
-
-list_of_content=$(ls)
-
-echo "$list_of_content"
+ls
 
