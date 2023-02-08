@@ -1,1 +1,1 @@
-Shell is Awesone
+Shell is Awesome
