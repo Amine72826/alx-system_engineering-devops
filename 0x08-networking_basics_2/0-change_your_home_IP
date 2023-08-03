@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cp /etc/hosts ~/hosts.n
+
+echo "127.0.0.2		localhost" > ~/hosts.n
+echo "0.0.0.0		facebook.com" >> ~/hosts.n
+
+cp -f !/hosts.n /etc/hosts
